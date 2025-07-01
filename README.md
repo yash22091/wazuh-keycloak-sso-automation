@@ -1,0 +1,1 @@
+# wazuh-keycloak-sso-automation
