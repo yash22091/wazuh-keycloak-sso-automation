@@ -74,16 +74,6 @@ chmod +x setup-sso.sh
 
 ---
 
-## Repository Structure
-
-```
-.
-├── setup-sso.sh                # Main setup script
-├── Readme.md                  # Readme
-```
-
----
-
 ## Advanced Tips
 
 * For MFA: Configure it in Keycloak under **Authentication → Flows**
