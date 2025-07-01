@@ -46,6 +46,29 @@ chmod +x setup-sso.sh
   --new-lastname Smith \
   --siem_url wazuh.example.com
 ```
+Script Help Output
+
+When you run the script with --help, you’ll see:
+
+Usage: automatedsso.sh [options]
+
+Options:
+  -h, --help                     Show this help message and exit
+  -k, --keycloak-url URL         Keycloak URL
+  -r, --realm REALM              Realm name
+  -c, --client CLIENT            Client name
+  -a, --admin-user USER          Admin username
+  -p, --admin-pass PASS          Admin password
+  -u, --new-user USER            New username
+  -w, --new-pass PASS            New user password
+  -e, --new-email EMAIL          New user email
+  -f, --new-firstname NAME       New user first name
+  -l, --new-lastname NAME        New user last name
+  -s, --siem_url URL             Siem URL Name
+  -d, --debug                    Enable debug mode
+
+Example:
+  automatedsso.sh -k https://keycloak.example.com -r myrealm -c myclient -a admin -p adminpass -u newuser -w newpass -e user@example.com -f John -l Doe -s wazuh.example.com
 
 ---
 
